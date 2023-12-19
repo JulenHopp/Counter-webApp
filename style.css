@@ -1,0 +1,89 @@
+body{
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 98%;
+    height: 95vh;
+    background-size: 300% 300%;
+    background-image: linear-gradient(-45deg, rgb(163, 163, 241) 0%, rgb(94, 94, 109) 25%, rgb(120, 128, 218) 51%, #2e2e2e 100%);
+
+    color: white;
+    font-family: Roboto, Arial;
+}
+
+.title{
+
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+
+    font-size: 100px;
+}
+
+.counter-number{
+    padding: 10px;
+    font-size: 60px;
+}
+
+.decrease-button,
+.reset-button,
+.increase-button{
+
+    height: 35px;
+    width: 110px;
+    margin: 5px;
+    padding: 5px;
+
+    color: white;
+    font-size: 15px;
+
+    background-color: white;
+
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+}
+
+.decrease-button{
+
+    background-image: linear-gradient(red,rgba(255, 81, 0, 0.452));
+}
+
+.reset-button{
+    background-image: linear-gradient(gray,rgba(114, 113, 113, 0.616));
+}
+
+.increase-button{
+    background-image: linear-gradient(green,rgba(0, 247, 255, 0.432));
+}
+
+.decrease-button:hover{
+
+    background-image: linear-gradient(rgba(255, 0, 0, 0.74),rgba(255, 81, 0, 0.336));
+}
+
+.reset-button:hover{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.63),rgba(114, 113, 113, 0.377));
+}
+
+.increase-button:hover{
+    background-image: linear-gradient(rgba(0, 128, 0, 0.699),rgba(0, 247, 255, 0.308));
+}
+
+.decrease-button:active{
+
+    background-image: linear-gradient(rgba(255, 0, 0, 0.322),rgba(255, 81, 0, 0));
+}
+
+.reset-button:active{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.336),rgba(114, 113, 113, 0));
+}
+
+.increase-button:active{
+    background-image: linear-gradient(rgba(0, 128, 0, 0.37),rgba(0, 247, 255, 0));
+}
